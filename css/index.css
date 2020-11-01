@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(45deg, rgba(22,18,86,1) 21%, rgba(0,53,255,1) 53%, rgba(9,9,121,1) 79%) no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h3{
+    text-shadow: 2px 2px 6px #333333;
+}
+
+.container{
+    max-height: fit-content;
+    min-height: 100vh;
+}
+
+.required{
+    color: red;
+}
+
+/* .lirycs{
+    height: 400px;
+    overflow-y: scroll;
+} */
